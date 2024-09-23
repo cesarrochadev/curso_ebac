@@ -26,6 +26,7 @@ form_01.addEventListener('submit', function (e) {
         alert('Os campos são iguais')
         window.location = '';
     }
+
     let teste = validaCampo(campo_a, campo_b)
     if (teste) {
         console.log('OK')
